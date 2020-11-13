@@ -68,12 +68,12 @@ that I use the most.
 The "HTML entity" column
 is there just for reference.
 
-| Type this    | Get this  | HTML entity | Comments
-| ------------ | --------- | ----------- | --------
-| `;b` + space | • + space | `&bull;`    | Bullet; great for bullet lists
-| `;nd`        | –         | `&ndash;`   | En dash
-| `;ra`        | →         | `&rarr;`    | Right arrow
-| `;times`     | ×         | `&times;`   | Multiplication sign
+| Type this | Get this | HTML entity | Comments
+| --------- | -------- | ----------- | --------
+| `;b`      | •        | `&bull;`    | Bullet; great for bullet lists
+| `;nd`     | –        | `&ndash;`   | En dash
+| `;ra`     | →        | `&rarr;`    | Right arrow
+| `;times`  | ×        | `&times;`   | Multiplication sign
 
 And here are the rest of the hotstrings
 provided by the script.
@@ -102,8 +102,8 @@ but they are nice to have around.
 | `;reg`       | ®        | `&reg;`     | Registered trademark
 | `;tm`        | ™        | `&trade;`   | Trademark
 |              |          |             |
-| `:lenny:`    | ( ͡° ͜ʖ ͡°) |             | Look ma, it's Lenny!
-| `:dis:`      | ಠ_ಠ     |             | Look of **dis**approval
+| `;lenny`     | ( ͡° ͜ʖ ͡°) |             | Look ma, it's Lenny!
+| `;dis`       | ಠ_ಠ     |             | Look of **dis**approval
 
 ### [`wide_left_shift.ahk`](scripts/wide_left_shift.ahk)
 

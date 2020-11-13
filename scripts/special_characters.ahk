@@ -1,4 +1,4 @@
-﻿#SingleInstance
+#SingleInstance
 
 ;; Hotstrings documentation:
 ;; https://lexikos.github.io/v2/docs/Hotstrings.htm
@@ -36,13 +36,15 @@
 :*?:h;::ö
 
 :*?:;ae::≈
-:*?:;b ::•{SPACE}
+:*?:;b::•
 :*?:;copy::©
 :*?:;da::↓
 :*?:;deg::°
+:*?:;dis::ಠ_ಠ
 :*?:;eur::€
 :*?:;hellip::…
 :*?:;la::←
+:*?:;lenny::( ͡° ͜ʖ ͡°)
 :*?:;md::—
 :*?:;middot::·
 :*?:;nb:: 
@@ -53,8 +55,3 @@
 :*?:;times::×
 :*?:;tm::™
 :*?:;ua::↑
-
-;; These need to be defined with the `Hotstring()` function
-;; because the trigger strings end in a colon
-Hotstring(':*?::lenny:', '( ͡° ͜ʖ ͡°)')
-Hotstring(':*?::dis:', 'ಠ_ಠ')
