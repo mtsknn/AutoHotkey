@@ -4,7 +4,7 @@
   - [`caps_to_esc.ahk`](#caps_to_escahk)
   - [`special_characters.ahk`](#special_charactersahk)
   - [`wide_left_shift.ahk`](#wide_left_shiftahk)
-- [How to use these scripts](#how-to-use-these-scripts)
+- [How to install the scripts](#how-to-install-the-scripts)
 - [Remarks](#remarks)
 - [License](#license)
 
@@ -54,7 +54,7 @@ It was also unergonomic to constantly toggle between the layouts.
 
 But no more!
 Now I can keep the US layout active 100% of the time
-while still being able to write Finnish conveniently.
+while still being able to write Finnish comfortably.
 
 I have tried many different hotstrings for typing ä's and ö's,
 but the above hostrings seem to be the most ergonomic and comfortable for me.
@@ -124,7 +124,7 @@ With this script
 I can pretend that
 the <kbd>Left Shift</kbd> key is as wide as it should be.
 
-## How to use these scripts
+## How to install the scripts
 
 1. Download [AutoHotkey v2](https://www.autohotkey.com/v2/) (a zip file).
    - The scripts are developed for v2.0-a122.
