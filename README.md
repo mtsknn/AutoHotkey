@@ -98,7 +98,7 @@ but they are nice to have around.
 | `;hellip`    | …        | `&hellip;`  | Horizontal ellipsis
 | `;md`        | —        | `&mdash;`   | Em dash
 | `;middot`    | ·        | `&middot;`  | Middle dot
-| `;nbsp`      |          | `&nbsp;`    | Non-breaking space
+| `;nb`        |          | `&nbsp;`    | Non-breaking space
 | `;reg`       | ®        | `&reg;`     | Registered trademark
 | `;tm`        | ™        | `&trade;`   | Trademark
 |              |          |             |
