@@ -1,6 +1,4 @@
-# My AutoHotkey v2 scripts
-
-Tiny yet mighty convenient helpers.
+# Tiny yet mighty convenient AutoHotkey v2 scripts
 
 - [The scripts](#the-scripts)
   - [`caps_to_esc.ahk`](#caps_to_escahk)
