@@ -8,7 +8,7 @@
 
 ;; Hotstring options used in this file:
 ;;   *   An ending character (e.g. `Space`) is *not* required to trigger the hotstring.
-;;   ?   The hotstring will be triggered even when it is inside another word.
+;;   ?   The hotstring will be triggered even when it's inside another word.
 ;;   b0  Automatic backspacing is *not* done to erase the trigger string.
 
 ;; These two need to be defined
@@ -30,12 +30,13 @@
 }
 
 ;; No need to define separate hotstrings for uppercase letters
-;; because hotstrings are "case-conforming" by default
-:*?:;aring::å
+;; because hotstrings are "case-conforming" by default.
+;; Applies to the `;aring` → `å` hotstring as well.
 :*?:h'::ä
 :*?:h;::ö
 
 :*?:;ae::≈
+:*?:;aring::å
 :*?:;b::•
 :*?:;copy::©
 :*?:;da::↓
