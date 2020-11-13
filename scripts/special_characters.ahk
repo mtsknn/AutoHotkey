@@ -11,6 +11,9 @@
 ;;   ?   The hotstring will be triggered even when it is inside another word.
 ;;   b0  Automatic backspacing is *not* done to erase the trigger string.
 
+;; These two need to be defined
+;; before the `h;` → `ö` hotstring
+;; or it will take precedence
 :*?b0:dash;::
 {
     ;; Do nothing so that typing the HTML entities
@@ -28,9 +31,9 @@
 
 ;; No need to define separate hotstrings for uppercase letters
 ;; because hotstrings are "case-conforming" by default
-:*?:h;::ö
-:*?:h'::ä
 :*?:;aring::å
+:*?:h'::ä
+:*?:h;::ö
 
 :*?:;ae::≈
 :*?:;b ::•{SPACE}
@@ -51,7 +54,7 @@
 :*?:;tm::™
 :*?:;ua::↑
 
-;; These hotstrings need to be defined with the `Hotstring()` function
+;; These need to be defined with the `Hotstring()` function
 ;; because the trigger strings end in a colon
 Hotstring(':*?::lenny:', '( ͡° ͜ʖ ͡°)')
 Hotstring(':*?::dis:', 'ಠ_ಠ')
