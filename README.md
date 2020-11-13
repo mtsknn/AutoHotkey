@@ -36,10 +36,10 @@ This makes life so much easier.
 
 These four hotstrings are the most important for me:
 
-- When I type `h;`, the characters get replaced with `ö`.
-- When I type `H;`, the characters get replaced with `Ö`.
-- When I type `h'`, the characters get replaced with `ä`.
-- When I type `H'`, the characters get replaced with `Ä`.
+- When I type `h;`, the characters get replaced with ö.
+- When I type `H;`, the characters get replaced with Ö.
+- When I type `h'`, the characters get replaced with ä.
+- When I type `H'`, the characters get replaced with Ä.
 
 Before I created this script,
 I was constantly toggling between
@@ -58,7 +58,7 @@ But no more!
 Now I can keep the US layout active 100% of the time
 while still being able to write Finnish conveniently.
 
-I have tried many different hotstrings for typing `ä`'s and `ö`'s,
+I have tried many different hotstrings for typing ä's and ö's,
 but the above hostrings seem to be the most ergonomic and comfortable for me.
 There are a few apps and situations
 where the hotstrings don't work reliably,
@@ -70,42 +70,42 @@ that I use the most.
 The "HTML entity" column
 is there just for reference.
 
-| Type this    | Get this    | HTML entity | Comments
-| ------------ | ----------- | ----------- | --------
-| `;b` + space | `•` + space | `&bull;`    | Bullet; great for bullet lists
-| `;nd`        | `–`         | `&ndash;`   | En dash
-| `;ra`        | `→`         | `&rarr;`    | Right arrow
-| `;times`     | `×`         | `&times;`   | Multiplication sign
+| Type this    | Get this  | HTML entity | Comments
+| ------------ | --------- | ----------- | --------
+| `;b` + space | • + space | `&bull;`    | Bullet; great for bullet lists
+| `;nd`        | –         | `&ndash;`   | En dash
+| `;ra`        | →         | `&rarr;`    | Right arrow
+| `;times`     | ×         | `&times;`   | Multiplication sign
 
 And here are the rest of the hotstrings
 provided by the script.
 I use these only rarely,
 but they are nice to have around.
 
-| Type this    | Get this    | HTML entity | Comments
-| ------------ | ----------- | ----------- | --------
-| `;aring`     | `å`         | `&aring;`   | Used in Finnish, but extremely rarely
-| `;Aring`     | `Å`         | `&Aring;`   | ↑
-|              |             |             |
-| `;da`        | `↓`         | `&darr;`    | Down arrow
-| `;la`        | `←`         | `&larr;`    | Left arrow
-| `;ua`        | `↑`         | `&uarr;`    | Up arrow
-|              |             |             |
-| `;ae`        | `≈`         | `&approx;`  | Almost equal to / Approximately
-| `;ne`        | `≠`         | `&ne;`      | Not equal to
-|              |             |             |
-| `;copy`      | `©`         | `&copy;`    | Copyright
-| `;deg`       | `°`         | `&deg;`     | Degree
-| `;eur`       | `€`         | `&euro;`    | Euro
-| `;hellip`    | `…`         | `&hellip;`  | Horizontal ellipsis
-| `;md`        | `—`         | `&mdash;`   | Em dash
-| `;middot`    | `·`         | `&middot;`  | Middle dot
-| `;nbsp`      | ` `         | `&nbsp;`    | Non-breaking space
-| `;reg`       | `®`         | `&reg;`     | Registered trademark
-| `;tm`        | `™`         | `&trade;`   | Trademark
-|              |             |             |
-| `:lenny:`    | `( ͡° ͜ʖ ͡°)`  |             | Look ma, it's Lenny!
-| `:dis:`      | `ಠ_ಠ`      |             | Look of **dis**approval
+| Type this    | Get this | HTML entity | Comments
+| ------------ | -------- | ----------- | --------
+| `;aring`     | å        | `&aring;`   | Used in Finnish, but extremely rarely
+| `;Aring`     | Å        | `&Aring;`   | ↑
+|              |          |             |
+| `;da`        | ↓        | `&darr;`    | Down arrow
+| `;la`        | ←        | `&larr;`    | Left arrow
+| `;ua`        | ↑        | `&uarr;`    | Up arrow
+|              |          |             |
+| `;ae`        | ≈        | `&approx;`  | Almost equal to / Approximately
+| `;ne`        | ≠        | `&ne;`      | Not equal to
+|              |          |             |
+| `;copy`      | ©        | `&copy;`    | Copyright
+| `;deg`       | °        | `&deg;`     | Degree
+| `;eur`       | €        | `&euro;`    | Euro
+| `;hellip`    | …        | `&hellip;`  | Horizontal ellipsis
+| `;md`        | —        | `&mdash;`   | Em dash
+| `;middot`    | ·        | `&middot;`  | Middle dot
+| `;nbsp`      |          | `&nbsp;`    | Non-breaking space
+| `;reg`       | ®        | `&reg;`     | Registered trademark
+| `;tm`        | ™        | `&trade;`   | Trademark
+|              |          |             |
+| `:lenny:`    | ( ͡° ͜ʖ ͡°) |             | Look ma, it's Lenny!
+| `:dis:`      | ಠ_ಠ     |             | Look of **dis**approval
 
 ### [`wide_left_shift.ahk`](scripts/wide_left_shift.ahk)
 
