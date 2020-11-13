@@ -94,12 +94,15 @@ but they are nice to have around.
 | `;ae`        | `≈`         | `&approx;`  | Almost equal to / Approximately
 | `;ne`        | `≠`         | `&ne;`      | Not equal to
 |              |             |             |
+| `;copy`      | `©`         | `&copy;`    | Copyright
 | `;deg`       | `°`         | `&deg;`     | Degree
 | `;eur`       | `€`         | `&euro;`    | Euro
 | `;hellip`    | `…`         | `&hellip;`  | Horizontal ellipsis
 | `;md`        | `—`         | `&mdash;`   | Em dash
 | `;middot`    | `·`         | `&middot;`  | Middle dot
 | `;nbsp`      | ` `         | `&nbsp;`    | Non-breaking space
+| `;reg`       | `®`         | `&reg;`     | Registered trademark
+| `;tm`        | `™`         | `&trade;`   | Trademark
 |              |             |             |
 | `:lenny:`    | `( ͡° ͜ʖ ͡°)`  |             | Look ma, it's Lenny!
 | `:dis:`      | `ಠ_ಠ`      |             | Look of **dis**approval

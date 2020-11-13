@@ -34,6 +34,7 @@
 
 :*?:;ae::≈
 :*?:;b ::•{SPACE}
+:*?:;copy::©
 :*?:;da::↓
 :*?:;deg::°
 :*?:;eur::€
@@ -45,7 +46,9 @@
 :*?:;nd::–
 :*?:;ne::≠
 :*?:;ra::→
+:*?:;reg::®
 :*?:;times::×
+:*?:;tm::™
 :*?:;ua::↑
 
 ;; These hotstrings need to be defined with the `Hotstring()` function
