@@ -8,6 +8,7 @@ Tiny yet mighty convenient helpers.
   - [`wide_left_shift.ahk`](#wide_left_shiftahk)
 - [How to use these scripts](#how-to-use-these-scripts)
 - [Remarks](#remarks)
+- [License](#license)
 
 ## The scripts
 
@@ -167,3 +168,7 @@ is used in every script.
 It allows only a single instance of a script to be running,
 so that running a script that is already running
 makes the new instance replace the old instance automatically.
+
+## License
+
+MIT &copy; [Matias Kinnunen](https://mtsknn.fi/)
