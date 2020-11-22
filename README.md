@@ -1,10 +1,13 @@
 # Tiny yet mighty convenient AutoHotkey v2 scripts
 
+For AutoHotkey v2.0-a122.
+See [installation instructions](#installation-instructions).
+
 - [The scripts](#the-scripts)
   - [`caps_to_esc.ahk`](#caps_to_escahk)
   - [`special_characters.ahk`](#special_charactersahk)
   - [`wide_left_shift.ahk`](#wide_left_shiftahk)
-- [How to install the scripts](#how-to-install-the-scripts)
+- [Installation instructions](#installation-instructions)
 - [Remarks](#remarks)
 - [License](#license)
 
@@ -26,11 +29,12 @@ I don't recall ever needing this.
 
 ### [`special_characters.ahk`](scripts/special_characters.ahk)
 
-**Provides [hotstrings](https://lexikos.github.io/v2/docs/Hotstrings.htm)
-to easily type special characters.**
+**Provides [hotstrings] to easily type special characters.**
+
+[hotstrings]: https://lexikos.github.io/v2/docs/Hotstrings.htm
 
 My favorite script!
-This makes life so much easier.
+Makes life so much easier.
 
 These four hotstrings are the most important for me:
 
@@ -40,20 +44,18 @@ These four hotstrings are the most important for me:
 - When I type `H'`, the characters get replaced with Ä.
 
 Before I created this script,
-I was constantly toggling between
-the US and Finnish keyboard layouts
-in Windows
+I was constantly toggling the input language
+between US English and Finnish
 with <kbd>Win</kbd> + <kbd>Space</kbd>.
-I used
-Finnish layout for writing Finnish (my native language)
-and US layout for all other purposes.
+I switched to Finnish when I was writing Finnish (my native language)
+and otherwise kept US English active.
 
 But man, it was _so annoying_
-to forget many times a day which one is the currently active layout.
-It was also unergonomic to constantly toggle between the layouts.
+to forget many times a day which one is the currently active input language.
+It was also unergonomic to constantly toggle between the two.
 
-But no more!
-Now I can keep the US layout active 100% of the time
+No more!
+Now I can keep US English active all the time
 while still being able to write Finnish comfortably.
 
 I have tried many different hotstrings for typing ä's and ö's,
@@ -66,7 +68,7 @@ and that's enough for me.
 Below are the next four hotstrings
 that I use the most.
 The "HTML entity" column
-is there just for reference.
+is just for reference.
 
 | Type this | Get this | HTML entity | Comments
 | --------- | -------- | ----------- | --------
@@ -116,15 +118,27 @@ My work laptop's keyboard has an ISO layout,
 so the <kbd>Left Shift</kbd> key is narrower than in ANSI layouts,
 and there's an extra key
 between the <kbd>Left Shift</kbd> and <kbd>Z</kbd> keys.
-See [ANSI vs ISO](https://deskthority.net/wiki/ANSI_vs_ISO) for illustrations.
 
-I use the US keyboard layout in Windows,
+I use US English as the input language in Windows,
 so the extra key is unnecessary for me.
 With this script
 I can pretend that
 the <kbd>Left Shift</kbd> key is as wide as it should be.
 
-## How to install the scripts
+ANSI keyboard layout:
+
+![ANSI keyboard layout](images/ANSI_keyboard_layout.svg)
+
+ISO keyboard layout:
+
+![ISO keyboard layout](images/ISO_keyboard_layout.svg)
+
+<sup>Keyboard layout illustrations by Daniel Beardsmore,
+from [_ANSI vs ISO_ page on Deskthority wiki](https://deskthority.net/wiki/ANSI_vs_ISO).
+Illustrations minified with
+[SVGOMG](https://jakearchibald.github.io/svgomg/).</sup>
+
+## Installation instructions
 
 1. Download [AutoHotkey v2](https://www.autohotkey.com/v2/) (a zip file).
    - The scripts are developed for v2.0-a122.
