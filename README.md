@@ -5,6 +5,7 @@ See [installation instructions](#installation-instructions).
 
 - [The scripts](#the-scripts)
   - [`caps_to_esc.ahk`](#caps_to_escahk)
+  - [`popup_calendar.ahk`](#popup_calendarahk)
   - [`special_characters.ahk`](#special_charactersahk)
   - [`wide_left_shift.ahk`](#wide_left_shiftahk)
 - [Installation instructions](#installation-instructions)
@@ -26,6 +27,49 @@ and
 If you need to toggle <kbd>CapsLock</kbd>,
 hold <kbd>Right Ctrl</kbd> and press <kbd>CapsLock</kbd>.
 I don't recall ever needing this.
+
+### [`popup_calendar.ahk`](scripts/popup_calendar.ahk)
+
+**Shows a pop-up calendar when pressing <kbd>Win</kbd> + <kbd>c</kbd>.**
+
+Who enjoys moving their cursor
+to the bottom right corner of the screen
+and clicking on the clock
+to see a calendar
+which doesn't even have week numbers?
+Me neither.
+
+This pop-up calendar is just a keypress away.
+And it has week numbers!
+The current time is shown in the title bar.
+
+![Screenshot of the pop-up calendar](images/popup_calendar.png)
+
+Uses the locale specified in
+Windows Settings
+→ Time & Language
+→ Region
+→ Regional format.
+
+When the calendar window is focused,
+you can:
+
+- use the arrow keys to move between days.
+- press <kbd>Esc</kbd> to close the calendar.
+- press <kbd>Home</kbd> / <kbd>End</kbd>
+  to move to the first/last day
+  of the currently selected month.
+- press <kbd>Ctrl</kbd> + arrow keys / <kbd>Home</kbd> / <kbd>End</kbd>
+  to move around in bigger leaps.
+
+Note:
+<kbd>Win</kbd> + <kbd>c</kbd> opens Cortana by default,
+so you might want to modify the pop-up calendar's keyboard shortcut
+if you want to also use Cortana.
+Personally,
+I don't often open Cortana,
+but when I do,
+I do it accidentally.
 
 ### [`special_characters.ahk`](scripts/special_characters.ahk)
 
