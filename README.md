@@ -95,14 +95,26 @@ but they are nice to have around.
 | `;ne`        | ≠        | `&ne;`      | Not equal to
 |              |          |             |
 | `;copy`      | ©        | `&copy;`    | Copyright
+| `;reg`       | ®        | `&reg;`     | Registered trademark
+| `;tm`        | ™        | `&trade;`   | Trademark
+|              |          |             |
 | `;deg`       | °        | `&deg;`     | Degree
 | `;eur`       | €        | `&euro;`    | Euro
 | `;hellip`    | …        | `&hellip;`  | Horizontal ellipsis
 | `;md`        | —        | `&mdash;`   | Em dash
 | `;middot`    | ·        | `&middot;`  | Middle dot
 | `;nb`        |          | `&nbsp;`    | Non-breaking space
-| `;reg`       | ®        | `&reg;`     | Registered trademark
-| `;tm`        | ™        | `&trade;`   | Trademark
+|              |          |             |
+| `;sup0`      | ⁰        |             | Superscript 0
+| `;sup1`      | ¹        | `&sup1;`    | Superscript 1
+| `;sup2`      | ²        | `&sup2;`    | Superscript 2
+| `;sup3`      | ³        | `&sup3;`    | Superscript 3
+| `;sup4`      | ⁴        |             | Superscript 4
+| `;sup5`      | ⁵        |             | Superscript 5
+| `;sup6`      | ⁶        |             | Superscript 6
+| `;sup7`      | ⁷        |             | Superscript 7
+| `;sup8`      | ⁸        |             | Superscript 8
+| `;sup9`      | ⁹        |             | Superscript 9
 |              |          |             |
 | `;lenny`     | ( ͡° ͜ʖ ͡°) |             | Look ma, it's Lenny!
 | `;dis`       | ಠ_ಠ     |             | Look of **dis**approval
