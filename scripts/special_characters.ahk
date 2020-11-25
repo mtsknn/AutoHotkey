@@ -7,9 +7,9 @@
 ;;   :<options>:<trigger_string>::<replacement>
 
 ;; Hotstring options used in this file:
-;;   *   An ending character (e.g. `Space`) is *not* required to trigger the hotstring.
-;;   ?   The hotstring will be triggered even when it's inside another word.
-;;   b0  Automatic backspacing is *not* done to erase the trigger string.
+;;   *  = An ending character (e.g. `Space`) is *not* required to trigger the hotstring.
+;;   ?  = The hotstring will be triggered even when it's inside another word.
+;;   b0 = Automatic backspacing is *not* done to erase the trigger string.
 
 ;; These two need to be defined
 ;; before the `h;` → `ö` hotstring
