@@ -7,6 +7,8 @@ See [installation instructions](#installation-instructions).
   - [`caps_to_esc.ahk`](#caps_to_escahk)
   - [`popup_calendar.ahk`](#popup_calendarahk)
   - [`special_characters.ahk`](#special_charactersahk)
+    - [Finnish alphabet (ä, Ä, ö, Ö)](#finnish-alphabet-ä-ä-ö-ö)
+    - [Other special characters](#other-special-characters)
   - [`wide_left_shift.ahk`](#wide_left_shiftahk)
 - [Installation instructions](#installation-instructions)
 - [Remarks](#remarks)
@@ -80,12 +82,14 @@ I do it accidentally.
 My favorite script!
 Makes life so much easier.
 
+#### Finnish alphabet (ä, Ä, ö, Ö)
+
 These four hotstrings are the most important for me:
 
-- When I type `h;`, the characters get replaced with ö.
-- When I type `H;`, the characters get replaced with Ö.
 - When I type `h'`, the characters get replaced with ä.
 - When I type `H'`, the characters get replaced with Ä.
+- When I type `h;`, the characters get replaced with ö.
+- When I type `H;`, the characters get replaced with Ö.
 
 Before I created this script,
 I was constantly toggling the input language
@@ -108,6 +112,8 @@ There are a few apps and situations
 where the hotstrings don't work reliably,
 but they work like 95% of the time,
 and that's enough for me.
+
+#### Other special characters
 
 Below are the next four hotstrings
 that I use the most.
