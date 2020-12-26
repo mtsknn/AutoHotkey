@@ -5,6 +5,7 @@ See [installation instructions](#installation-instructions).
 
 - [The scripts](#the-scripts)
   - [`caps_to_esc.ahk`](#caps_to_escahk)
+  - [`discord_minimizer.ahk`](#discord_minimizerahk)
   - [`popup_calendar.ahk`](#popup_calendarahk)
   - [`special_characters.ahk`](#special_charactersahk)
     - [Finnish alphabet (ä, Ä, ö, Ö)](#finnish-alphabet-ä-ä-ö-ö)
@@ -29,6 +30,34 @@ and
 If you need to toggle <kbd>CapsLock</kbd>,
 hold <kbd>Right Ctrl</kbd> and press <kbd>CapsLock</kbd>.
 I don't recall ever needing this.
+
+### [`discord_minimizer.ahk`](scripts/discord_minimizer.ahk)
+
+**Minimizes Discord to the system tray
+when pressing <kbd>Alt</kbd> + <kbd>F4</kbd>.**
+
+In Discord's Settings &rarr; Windows Settings,
+the "Minimize to Tray" setting specifies that
+"Hitting X will make Discord sit back
+and relax in your system tray
+when you close the app."
+
+However,
+pressing <kbd>Alt</kbd> + <kbd>F4</kbd> ignores this setting by default:
+Discord is not minimized to the system tray;
+it's closed for good.
+When opening Discord the next time,
+it opens slowly
+because it has to do initializations and whatnot.
+This is annoying.
+
+This script makes <kbd>Alt</kbd> + <kbd>F4</kbd> minimize Discord to the system tray
+instead of closing it for good.
+
+It's not necessary to enable the "Minimize to Tray" setting
+for this script to work.
+However, you might want to enable it anyhow
+so that clicking the top-right X will also minimize Discord to the system tray.
 
 ### [`popup_calendar.ahk`](scripts/popup_calendar.ahk)
 
