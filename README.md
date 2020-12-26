@@ -6,7 +6,7 @@ See [installation instructions](#installation-instructions).
 - [The scripts](#the-scripts)
   - [`caps_to_esc.ahk`](#caps_to_escahk)
   - [`discord_minimizer.ahk`](#discord_minimizerahk)
-  - [`popup_calendar.ahk`](#popup_calendarahk)
+  - [`pop-up_calendar.ahk`](#pop-up_calendarahk)
   - [`special_characters.ahk`](#special_charactersahk)
     - [Finnish alphabet (ä, Ä, ö, Ö)](#finnish-alphabet-ä-ä-ö-ö)
     - [Other special characters](#other-special-characters)
@@ -59,7 +59,7 @@ for this script to work.
 However, you might want to enable it anyhow
 so that clicking the top-right X will also minimize Discord to the system tray.
 
-### [`popup_calendar.ahk`](scripts/popup_calendar.ahk)
+### [`pop-up_calendar.ahk`](scripts/pop-up_calendar.ahk)
 
 **Shows a pop-up calendar when pressing <kbd>Win</kbd> + <kbd>c</kbd>.**
 
@@ -74,7 +74,7 @@ This pop-up calendar is just a keypress away.
 And it has week numbers!
 The current time is shown in the title bar.
 
-![Screenshot of the pop-up calendar](images/popup_calendar.png)
+![Screenshot of the pop-up calendar](images/pop-up_calendar.png)
 
 Uses the locale specified in
 Windows Settings
