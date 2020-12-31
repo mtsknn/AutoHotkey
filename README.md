@@ -34,6 +34,7 @@ I don't recall ever needing this.
 ### [`discord_minimizer.ahk`](scripts/discord_minimizer.ahk)
 
 **Minimizes Discord to the system tray
+and focuses the topmost window
 when pressing <kbd>Alt</kbd> + <kbd>F4</kbd>.**
 
 In Discord's Settings &rarr; Windows Settings,
@@ -43,21 +44,32 @@ and relax in your system tray
 when you close the app."
 
 However,
-pressing <kbd>Alt</kbd> + <kbd>F4</kbd> ignores this setting by default:
-Discord is not minimized to the system tray;
-it's closed for good.
-When opening Discord the next time,
-it opens slowly
-because it has to do initializations and whatnot.
-This is annoying.
+there are two bugs related to the setting:
 
-This script makes <kbd>Alt</kbd> + <kbd>F4</kbd> minimize Discord to the system tray
-instead of closing it for good.
+1. Pressing <kbd>Alt</kbd> + <kbd>F4</kbd> ignores the setting:
+   Discord is quitted instead of minimized to the system tray.
+   When opening Discord the next time,
+   it opens slowly
+   because it has to do initializations and whatnot.
+   This is annoying.
+2. After minimizing Discord to the system tray,
+   the focus goes to the taskbar
+   instead of the topmost window.
+   You have to manually focus the topmost window
+   e.g. with <kbd>Alt</kbd> + <kbd>Tab</kbd>.
+   This is also annoying.
+
+This script makes <kbd>Alt</kbd> + <kbd>F4</kbd>:
+
+1. minimize Discord to the system tray instead of quitting it.
+2. focus the topmost window after minimizing Discord.
 
 It's not necessary to enable the "Minimize to Tray" setting
 for this script to work.
 However, you might want to enable it anyhow
 so that clicking the top-right X will also minimize Discord to the system tray.
+(The focus will be incorrectly set to the taskbar,
+but this probably isn't a big issue when using the mouse.)
 
 ### [`pop-up_calendar.ahk`](scripts/pop-up_calendar.ahk)
 
