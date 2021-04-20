@@ -184,6 +184,7 @@ but they are nice to have around.
 |              |          |             |
 | `;ae`        | ≈        | `&approx;`  | Almost equal to / Approximately
 | `;ne`        | ≠        | `&ne;`      | Not equal to
+| `;plusmn`    | ±        | `&plusmn;`  | Plus-minus sign
 |              |          |             |
 | `;copy`      | ©        | `&copy;`    | Copyright
 | `;reg`       | ®        | `&reg;`     | Registered trademark
