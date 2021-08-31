@@ -23,7 +23,7 @@
 }
 :*?b0:length;::
 {
-    ;; Again, do nothing so that typing
+    ;; Again, do nothing so that typing e.g.
     ;; `foo.length;`
     ;; won't produce
     ;; `foo.lengtö`
@@ -48,12 +48,13 @@
 :*?:;lenny::( ͡° ͜ʖ ͡°)
 :*?:;md::—
 :*?:;middot::·
-:*?:;nb:: 
+:*?:;nb::  ;; non-breaking space
 :*?:;nd::–
 :*?:;ne::≠
 :*?:;plusmn::±
 :*?:;ra::→
 :*?:;reg::®
+:*?:;shrug::¯\(ツ)/¯
 :*?:;sup0::⁰
 :*?:;sup1::¹
 :*?:;sup2::²

@@ -210,8 +210,9 @@ but they are nice to have around.
 | `;sup8`   | ⁸         |             | Superscript 8                         |
 | `;sup9`   | ⁹         |             | Superscript 9                         |
 |           |           |             |                                       |
+| `;dis`    | ಠ_ಠ       |             | Look of dis-approval                  |
 | `;lenny`  | ( ͡° ͜ʖ ͡°)  |             | Look ma, it's Lenny!                  |
-| `;dis`    | ಠ_ಠ       |             | Look of **dis**approval               |
+| `;shrug`  | ¯\\(ツ)/¯ |             | Shrug                                 |
 
 ### [`wide_left_shift.ahk`](scripts/wide_left_shift.ahk)
 
