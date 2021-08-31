@@ -103,6 +103,9 @@ you can:
   of the currently selected month.
 - press <kbd>Ctrl</kbd> + arrow keys / <kbd>Home</kbd> / <kbd>End</kbd>
   to move around in bigger leaps.
+- press <kbd>Menu</kbd> (or <kbd>Shift</kbd> + <kbd>F10</kbd>)
+  and then <kbd>G</kbd>
+  to focus today.
 
 Note:
 <kbd>Win</kbd> + <kbd>C</kbd> opens Cortana by default,
