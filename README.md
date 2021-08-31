@@ -1,6 +1,6 @@
 # Tiny yet mighty convenient AutoHotkey v2 scripts
 
-For AutoHotkey v2.0-a122.
+For AutoHotkey v2.0-beta.1.
 See [installation instructions](#installation-instructions).
 
 - [The scripts](#the-scripts)
@@ -248,10 +248,10 @@ Illustrations minified with
 ## Installation instructions
 
 1. Download [AutoHotkey v2](https://www.autohotkey.com/v2/) (a zip file).
-   - The scripts are developed for v2.0-a122.
+   - The scripts are developed for v2.0-beta.1.
      Newer versions might also work
      since the scripts are very simple.
-2. Extract the zip file e.g. to `%programfiles%/AutoHotkey_2.0-a122/`.
+2. Extract the zip file e.g. to `%programfiles%/AutoHotkey_2.0-beta.1/`.
    - To open the `Program Files` folder,
      press <kbd>Ctrl</kbd> + <kbd>R</kbd>,
      type `%programfiles%` to the Run window,
@@ -265,7 +265,7 @@ Illustrations minified with
    - When opening an `.ahk` file for the first time,
      Windows should ask you
      what program to use to open the file.
-     Choose `AutoHotkeyU64.exe`
+     Choose `AutoHotkey64.exe`
      from the folder where you extracted the zip file.
 5. To run the scripts automatically
    when logging in to Windows,
