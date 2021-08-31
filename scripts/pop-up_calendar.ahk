@@ -1,5 +1,9 @@
+#Requires AutoHotkey v2.0-beta.1
 #SingleInstance
 
+;; AutoHotkey doesn't have nulls,
+;; so empty strings are often used to denote "nothing."
+;; https://lexikos.github.io/v2/docs/Concepts.htm#nothing
 global Calendar := ''
 
 ;; Win + c
@@ -10,19 +14,31 @@ global Calendar := ''
     ;; and to reset the date selection and window position
     DestroyCalendar()
 
-    Calendar := CreateCalendar()
+    CreateCalendar()
     Calendar.Show()
 }
 
-DestroyCalendar()
+;; The asterisk makes the function variadic,
+;; i.e. it accepts any number of parameters.
+;; We call it with 0 parameters,
+;; and GUI events call it with 1 parameter (the GUI object),
+;; so the function must be variadic or the script won't run.
+;; https://lexikos.github.io/v2/docs/Functions.htm#Variadic
+DestroyCalendar(*)
 {
-    SetTimer('UpdateTitle', 0)
-    (Calendar) && Calendar.Destroy()
+    SetTimer(UpdateTitle, 0)
+
+    global Calendar
+    if Calendar
+    {
+        Calendar.Destroy()
+        Calendar := ''
+    }
 }
 
 CreateCalendar()
 {
-    local Calendar := Gui.New('-MinimizeBox', GetTitle())
+    global Calendar := Gui('-MinimizeBox', GetTitle())
     Calendar.MarginX := -18
     Calendar.MarginY := -15
 
@@ -31,24 +47,21 @@ CreateCalendar()
     ;; W-4 = Show 4 columns
     Calendar.Add('MonthCal', '4 R3 W-4')
 
-    Calendar.OnEvent('Close', (*) => (
-        SetTimer('UpdateTitle', 0)
-    ))
+    Calendar.OnEvent('Close', DestroyCalendar)
+    Calendar.OnEvent('Escape', DestroyCalendar)
 
-    Calendar.OnEvent('Escape', (this) => (
-        this.Hide(),
-        SetTimer('UpdateTitle', 0)
-    ))
-
-    SetTimer('UpdateTitle', 100)
-
-    return Calendar
+    SetTimer(UpdateTitle, 100)
 }
 
 GetTitle()
 {
+    ;; En dash, not a hyphen
+    Prefix := 'Calendar – '
+
     ;; T0 = Show seconds
-    return 'Calendar – ' . FormatTime('T0', 'Time')
+    Time := FormatTime('T0', 'Time')
+
+    return Prefix . Time
 }
 
 UpdateTitle()
