@@ -13,6 +13,8 @@ See [installation instructions](#installation-instructions).
   - [`wide_left_shift.ahk`](#wide_left_shiftahk)
 - [Installation instructions](#installation-instructions)
 - [Remarks](#remarks)
+  - [`#SingleInstance` directive](#singleinstance-directive)
+  - [Why AutoHotkey v2 instead of v1](#why-autohotkey-v2-instead-of-v1)
 - [License](#license)
 
 ## The scripts
@@ -37,7 +39,7 @@ I don't recall ever needing this.
 and focuses the topmost window
 when pressing <kbd>Alt</kbd> + <kbd>F4</kbd>.**
 
-In Discord's Settings &rarr; Windows Settings,
+In Discord's _Settings &rarr; Windows Settings_,
 the "Minimize to Tray" setting specifies that
 "Hitting X will make Discord sit back
 and relax in your system tray
@@ -51,7 +53,8 @@ there are two bugs related to the setting:
    When opening Discord the next time,
    it opens slowly
    because it has to do initializations and whatnot.
-   This is annoying.
+   This is annoying
+   and an accessibility issue (no way to minimize Discord with the keyboard).
 2. After minimizing Discord to the system tray,
    the focus goes to the taskbar
    instead of the topmost window.
@@ -73,26 +76,22 @@ but this probably isn't a big issue when using the mouse.)
 
 ### [`pop-up_calendar.ahk`](scripts/pop-up_calendar.ahk)
 
-**Shows a pop-up calendar when pressing <kbd>Win</kbd> + <kbd>c</kbd>.**
+**Shows a pop-up calendar when pressing <kbd>Win</kbd> + <kbd>C</kbd>.**
 
 Who enjoys moving their cursor
 to the bottom right corner of the screen
-and clicking on the clock
-to see a calendar
-which doesn't even have week numbers?
+and clicking on the taskbar clock
+to see a calendar that doesn't even have week numbers?
 Me neither.
 
-This pop-up calendar is just a keypress away.
+This pop-up calendar is just a keypress (or two) away.
 And it has week numbers!
 The current time is shown in the title bar.
 
 ![Screenshot of the pop-up calendar](images/pop-up_calendar.png)
 
 Uses the locale specified in
-Windows Settings
-→ Time & Language
-→ Region
-→ Regional format.
+_Windows Settings &rarr; Time & Language &rarr; Region &rarr; Regional format_.
 
 When the calendar window is focused,
 you can:
@@ -106,7 +105,7 @@ you can:
   to move around in bigger leaps.
 
 Note:
-<kbd>Win</kbd> + <kbd>c</kbd> opens Cortana by default,
+<kbd>Win</kbd> + <kbd>C</kbd> opens Cortana by default,
 so you might want to modify the pop-up calendar's keyboard shortcut
 if you want to also use Cortana.
 Personally,
@@ -122,6 +121,9 @@ I do it accidentally.
 
 My favorite script!
 Makes life so much easier.
+
+Pairs very well with [TouchCursor](https://martin-stone.github.io/touchcursor/) &ndash;
+highly recommended.
 
 #### Finnish alphabet (ä, Ä, ö, Ö)
 
@@ -156,7 +158,7 @@ and that's enough for me.
 
 #### Other special characters
 
-Below are the next four hotstrings
+Below are the next five hotstrings
 that I use the most.
 The "HTML entity" column
 is just for reference.
@@ -164,6 +166,7 @@ is just for reference.
 | Type this | Get this | HTML entity | Comments                       |
 | --------- | -------- | ----------- | ------------------------------ |
 | `;b`      | •        | `&bull;`    | Bullet; great for bullet lists |
+| `;nb`     |          | `&nbsp;`    | Non-breaking space             |
 | `;nd`     | –        | `&ndash;`   | En dash                        |
 | `;ra`     | →        | `&rarr;`    | Right arrow                    |
 | `;times`  | ×        | `&times;`   | Multiplication sign            |
@@ -195,7 +198,6 @@ but they are nice to have around.
 | `;hellip` | …         | `&hellip;`  | Horizontal ellipsis                   |
 | `;md`     | —         | `&mdash;`   | Em dash                               |
 | `;middot` | ·         | `&middot;`  | Middle dot                            |
-| `;nb`     |           | `&nbsp;`    | Non-breaking space                    |
 |           |           |             |                                       |
 | `;sup0`   | ⁰         |             | Superscript 0                         |
 | `;sup1`   | ¹         | `&sup1;`    | Superscript 1                         |
@@ -250,7 +252,7 @@ Illustrations minified with
      since the scripts are very simple.
 2. Extract the zip file e.g. to `%programfiles%/AutoHotkey_2.0-a122/`.
    - To open the `Program Files` folder,
-     press <kbd>Ctrl</kbd> + <kbd>r</kbd>,
+     press <kbd>Ctrl</kbd> + <kbd>R</kbd>,
      type `%programfiles%` to the Run window,
      and press <kbd>Enter</kbd>.
 3. Download the scripts that fancy you
@@ -258,7 +260,7 @@ Illustrations minified with
    ```sh
    git clone https://github.com/mtsknn/AutoHotkey.git
    ```
-4. Open the scripts that fancy you.
+4. Run the scripts that fancy you by opening them.
    - When opening an `.ahk` file for the first time,
      Windows should ask you
      what program to use to open the file.
@@ -273,20 +275,28 @@ Illustrations minified with
      right click on a file
      and select "Create shortcut."
    - To open the folder,
-     press <kbd>Ctrl</kbd> + <kbd>r</kbd>,
+     press <kbd>Ctrl</kbd> + <kbd>R</kbd>,
      paste the above path to the Run window,
      and press <kbd>Enter</kbd>.
-   - You could probably put the scripts straight to the `Startup` folder,
-     i.e. it might not be necessary to create shortcuts of them.
-6. Bonus points if you modify the scripts to your liking.
+   - You could also probably put the scripts straight to the `Startup` folder.
+     Then you wouldn't need to create shortcuts for them.
+
+Bonus points if you modify the scripts to your liking!
 
 ## Remarks
+
+### `#SingleInstance` directive
 
 The [`#SingleInstance` directive](https://lexikos.github.io/v2/docs/commands/_SingleInstance.htm)
 is used in every script.
 It allows only a single instance of a script to be running,
 so that running a script that is already running
 makes the new instance replace the old instance automatically.
+
+### Why AutoHotkey v2 instead of v1
+
+Because it's so much better.
+More details coming some day.
 
 ## License
 
