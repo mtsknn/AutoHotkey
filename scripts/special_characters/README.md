@@ -7,9 +7,6 @@
 My favorite script!
 Makes life so much easier.
 
-Pairs very well with [TouchCursor](https://martin-stone.github.io/touchcursor/) &ndash;
-highly recommended.
-
 ## Finnish alphabet (ä, Ä, ö, Ö)
 
 These four hotstrings are the most important for me:

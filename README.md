@@ -5,6 +5,7 @@ For AutoHotkey v2.0-beta.1.
 - [The scripts](#the-scripts)
 - [Installation instructions](#installation-instructions)
 - [Remarks](#remarks)
+- [Recommended apps](#recommended-apps)
 - [License](#license)
 
 ## The scripts
@@ -82,6 +83,35 @@ makes the new instance replace the old instance automatically.
 
 Because it's so much better.
 More details coming some day.
+
+## Recommended apps
+
+These apps provide functionality
+that I would want to create with AutoHotkey (or something else)
+if these apps didn't exist.
+
+In order of importance:
+
+- [TouchCursor](https://martin-stone.github.io/touchcursor/)
+  provides Vim-like keyboard shortcuts anywhere in Windows.
+  - Examples:
+    - <kbd>Space</kbd> + <kbd>H</kbd> / <kbd>J</kbd> / <kbd>K</kbd> / <kbd>L</kbd>
+      = arrow keys.
+    - <kbd>Space</kbd> + <kbd>I</kbd>
+      = <kbd>Backspace</kbd>.
+    - <kbd>Space</kbd> + <kbd>W</kbd>
+      = <kbd>Ctrl</kbd> + <kbd>Backspace</kbd>
+      = delete previous word.
+- [Vimium (a Firefox extension)](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)
+  and
+  [Vimium (a Chrome extension)](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
+  provide Vim-like keyboard shortcuts in the browser.
+- [KeyMouse](https://github.com/iscooool/KeyMouse)
+  provides Vimium-like keyboard shortcuts in any app (e.g. Windows Explorer).
+  - Alternatives (not as good in my opinion):
+    - [hunt-n-peck](https://github.com/zsims/hunt-and-peck)
+    - [LabelControl](https://www.dcmembers.com/skrommel/download/labelcontrol/)
+      (AutoHotkey v1 script!)
 
 ## License
 
