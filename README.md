@@ -1,6 +1,4 @@
-# Tiny yet mighty convenient AutoHotkey v2 scripts
-
-For AutoHotkey v2.0-beta.1.
+# Tiny AutoHotkey v2 scripts for big Quality of Life improvements
 
 - [The scripts](#the-scripts)
 - [Installation instructions](#installation-instructions)
