@@ -282,7 +282,7 @@ Create shortcuts for the scripts
 and place the shortcuts to `%appdata%/Microsoft/Windows/Start Menu/Programs/Startup`.
 
 - To open the `Startup` folder:
-  1. Open the Run dialog by pressing <kbd>Ctrl</kbd> + <kbd>R</kbd>.
+  1. Open the Run dialog by pressing <kbd>Win</kbd> + <kbd>R</kbd>.
   2. Paste the above path to the Run window.
   3. Press <kbd>Enter</kbd>.
 - To create a shortcut:
