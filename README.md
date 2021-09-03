@@ -1,4 +1,4 @@
-# Tiny AutoHotkey v2 scripts for big Quality of Life improvements
+# Small yet mighty AutoHotkey v2 scripts
 
 - [The scripts](#the-scripts)
 - [Installation instructions](#installation-instructions)
