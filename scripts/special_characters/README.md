@@ -95,3 +95,12 @@ but they are nice to have around.
 | `;dis`    | ಠ_ಠ       |             | Look of dis-approval                  |
 | `;lenny`  | ( ͡° ͜ʖ ͡°)  |             | Look ma, it's Lenny!                  |
 | `;shrug`  | ¯\\(ツ)/¯ |             | Shrug                                 |
+
+## What about emojis?
+
+Creating hotstrings for emojis would be very possible,
+but I haven't because
+I find the default emoji picker in Windows 10 good enough:
+press <kbd>Win</kbd> + <kbd>.</kbd> (period)
+or <kbd>Win</kbd> + <kbd>;</kbd>
+and start typing an emoji's name.
