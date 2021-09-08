@@ -59,8 +59,7 @@ and place the shortcuts to `%appdata%/Microsoft/Windows/Start Menu/Programs/Star
 
 - To open the `Startup` folder:
   1. Open the Run dialog by pressing <kbd>Win</kbd> + <kbd>R</kbd>.
-  2. Paste the above path to the Run window.
-  3. Press <kbd>Enter</kbd>.
+  2. Type `shell:startup` to the Run window and press <kbd>Enter</kbd>.
 - To create a shortcut:
   - Drag and drop an `.ahk` file to the `Startup` folder
     while holding <kbd>Alt</kbd>.
