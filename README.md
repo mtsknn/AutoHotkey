@@ -85,7 +85,7 @@ More details coming some day.
 ## Recommended apps
 
 These apps provide functionality
-that I would want to create with AutoHotkey (or something else)
+that I would want to create with AutoHotkey
 if these apps didn't exist.
 
 In order of importance:
@@ -100,13 +100,21 @@ In order of importance:
     - <kbd>Space</kbd> + <kbd>W</kbd>
       = <kbd>Ctrl</kbd> + <kbd>Backspace</kbd>
       = delete previous word.
-- [Vimium (a Firefox extension)](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)
-  and
-  [Vimium (a Chrome extension)](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
-  provide Vim-like keyboard shortcuts in the browser.
+- [T-Clock](https://github.com/White-Tiger/T-Clock/)
+  allows customizing the taskbar clock.
+  - T-Clock sometimes has problems with DPI scaling.
+    I once tried to recreate the functionality using AutoHotkey,
+    but found it too difficult,
+    so I continue using T-Clock.
+  - Since Windows 11,
+    "apps can no longer customize areas of the Taskbar." 😟
 - [KeyMouse](https://github.com/iscooool/KeyMouse)
   provides Vimium-like keyboard shortcuts in any app (e.g. Windows Explorer).
-  - Alternatives (not as good in my opinion):
+  - [Vimium (a Firefox extension)](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)
+    and
+    [Vimium (a Chrome extension)](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
+    provide Vim-like keyboard shortcuts in the browser.
+  - Alternatives to KeyMouse (not as good in my opinion):
     - [hunt-n-peck](https://github.com/zsims/hunt-and-peck)
     - [LabelControl](https://www.dcmembers.com/skrommel/download/labelcontrol/)
       (AutoHotkey v1 script!)
