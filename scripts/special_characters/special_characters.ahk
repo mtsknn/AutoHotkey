@@ -31,27 +31,30 @@
 
 ;; No need to define separate hotstrings for uppercase letters
 ;; because hotstrings are "case-conforming" by default.
-;; Applies to the `;aring` → `å` hotstring as well.
+;; Applies to the `;ao` → `å` hotstring as well.
 :*?:h'::ä
 :*?:h;::ö
 
+:*?:;...::…
 :*?:;ae::≈
-:*?:;aring::å
+:*?:;ao::å
 :*?:;b::•
 :*?:;copy::©
 :*?:;da::↓
 :*?:;deg::°
 :*?:;dis::ಠ_ಠ
+:*?:;es::☆
 :*?:;eur::€
-:*?:;hellip::…
+:*?:;fs::★
+:*?:;half::½
 :*?:;la::←
 :*?:;lenny::( ͡° ͜ʖ ͡°)
 :*?:;md::—
-:*?:;middot::·
+:*?:;mid::·
 :*?:;nb::  ;; non-breaking space
 :*?:;nd::–
 :*?:;ne::≠
-:*?:;plusmn::±
+:*?:;pm::±
 :*?:;ra::→
 :*?:;reg::®
 :*?:;shrug::¯\(ツ)/¯
@@ -65,6 +68,6 @@
 :*?:;sup7::⁷
 :*?:;sup8::⁸
 :*?:;sup9::⁹
-:*?:;times::×
 :*?:;tm::™
 :*?:;ua::↑
+:*?:;x::×

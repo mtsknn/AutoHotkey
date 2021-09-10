@@ -51,50 +51,55 @@ is just for reference.
 | `;nb`     |          | `&nbsp;`    | Non-breaking space             |
 | `;nd`     | –        | `&ndash;`   | En dash                        |
 | `;ra`     | →        | `&rarr;`    | Right arrow                    |
-| `;times`  | ×        | `&times;`   | Multiplication sign            |
+| `;x`      | ×        | `&times;`   | Multiplication sign            |
 
 And here are the rest of the hotstrings
 provided by the script.
 I use these only rarely,
 but they are nice to have around.
 
-| Type this | Get this  | HTML entity | Comments                              |
-| --------- | --------- | ----------- | ------------------------------------- |
-| `;aring`  | å         | `&aring;`   | Used in Finnish, but extremely rarely |
-| `;Aring`  | Å         | `&Aring;`   | ↑                                     |
-|           |           |             |                                       |
-| `;da`     | ↓         | `&darr;`    | Down arrow                            |
-| `;la`     | ←         | `&larr;`    | Left arrow                            |
-| `;ua`     | ↑         | `&uarr;`    | Up arrow                              |
-|           |           |             |                                       |
-| `;ae`     | ≈         | `&approx;`  | Almost equal to / Approximately       |
-| `;ne`     | ≠         | `&ne;`      | Not equal to                          |
-| `;plusmn` | ±         | `&plusmn;`  | Plus-minus sign                       |
-|           |           |             |                                       |
-| `;copy`   | ©         | `&copy;`    | Copyright                             |
-| `;reg`    | ®         | `&reg;`     | Registered trademark                  |
-| `;tm`     | ™         | `&trade;`   | Trademark                             |
-|           |           |             |                                       |
-| `;deg`    | °         | `&deg;`     | Degree                                |
-| `;eur`    | €         | `&euro;`    | Euro                                  |
-| `;hellip` | …         | `&hellip;`  | Horizontal ellipsis                   |
-| `;md`     | —         | `&mdash;`   | Em dash                               |
-| `;middot` | ·         | `&middot;`  | Middle dot                            |
-|           |           |             |                                       |
-| `;sup0`   | ⁰         |             | Superscript 0                         |
-| `;sup1`   | ¹         | `&sup1;`    | Superscript 1                         |
-| `;sup2`   | ²         | `&sup2;`    | Superscript 2                         |
-| `;sup3`   | ³         | `&sup3;`    | Superscript 3                         |
-| `;sup4`   | ⁴         |             | Superscript 4                         |
-| `;sup5`   | ⁵         |             | Superscript 5                         |
-| `;sup6`   | ⁶         |             | Superscript 6                         |
-| `;sup7`   | ⁷         |             | Superscript 7                         |
-| `;sup8`   | ⁸         |             | Superscript 8                         |
-| `;sup9`   | ⁹         |             | Superscript 9                         |
-|           |           |             |                                       |
-| `;dis`    | ಠ_ಠ       |             | Look of dis-approval                  |
-| `;lenny`  | ( ͡° ͜ʖ ͡°)  |             | Look ma, it's Lenny!                  |
-| `;shrug`  | ¯\\(ツ)/¯ |             | Shrug                                 |
+| Type this      | Get this  | HTML entity | Comments                                           |
+| -------------- | --------- | ----------- | -------------------------------------------------- |
+| `;ao`          | å         | `&aring;`   | Lowercase "Swedish O"; used very rarely in Finnish |
+| `;Ao` or `;AO` | Å         | `&Aring;`   | Uppercase "Swedish O"                              |
+|                |           |             |                                                    |
+| `;da`          | ↓         | `&darr;`    | Down arrow                                         |
+| `;la`          | ←         | `&larr;`    | Left arrow                                         |
+| `;ua`          | ↑         | `&uarr;`    | Up arrow                                           |
+|                |           |             |                                                    |
+| `;es`          | ☆         | `&star;`    | White/empty star                                   |
+| `;fs`          | ★         | `&starf;`   | Black/full/filled star                             |
+|                |           |             |                                                    |
+| `;ae`          | ≈         | `&approx;`  | Almost equal to / Approximately                    |
+| `;ne`          | ≠         | `&ne;`      | Not equal to                                       |
+|                |           |             |                                                    |
+| `;half`        | ½         | `&half;`    | Half                                               |
+| `;pm`          | ±         | `&pm;`      | Plus-minus                                         |
+|                |           |             |                                                    |
+| `;copy`        | ©         | `&copy;`    | Copyright                                          |
+| `;reg`         | ®         | `&reg;`     | Registered trademark                               |
+| `;tm`          | ™         | `&trade;`   | Trademark                                          |
+|                |           |             |                                                    |
+| `;...`         | …         | `&hellip;`  | Horizontal ellipsis                                |
+| `;deg`         | °         | `&deg;`     | Degree                                             |
+| `;eur`         | €         | `&euro;`    | Euro                                               |
+| `;md`          | —         | `&mdash;`   | Em dash                                            |
+| `;mid`         | ·         | `&middot;`  | Middle dot                                         |
+|                |           |             |                                                    |
+| `;sup0`        | ⁰         |             | Superscript 0                                      |
+| `;sup1`        | ¹         | `&sup1;`    | Superscript 1                                      |
+| `;sup2`        | ²         | `&sup2;`    | Superscript 2                                      |
+| `;sup3`        | ³         | `&sup3;`    | Superscript 3                                      |
+| `;sup4`        | ⁴         |             | Superscript 4                                      |
+| `;sup5`        | ⁵         |             | Superscript 5                                      |
+| `;sup6`        | ⁶         |             | Superscript 6                                      |
+| `;sup7`        | ⁷         |             | Superscript 7                                      |
+| `;sup8`        | ⁸         |             | Superscript 8                                      |
+| `;sup9`        | ⁹         |             | Superscript 9                                      |
+|                |           |             |                                                    |
+| `;dis`         | ಠ_ಠ       |             | Look of disapproval                                |
+| `;lenny`       | ( ͡° ͜ʖ ͡°)  |             | Look ma, it's Lenny!                               |
+| `;shrug`       | ¯\\(ツ)/¯ |             | Shrug                                              |
 
 ## What about emojis?
 
