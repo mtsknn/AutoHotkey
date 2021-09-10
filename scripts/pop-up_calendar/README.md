@@ -1,3 +1,5 @@
+[&larr; Installation instructions and more scripts](../../README.md)
+
 # [`pop-up_calendar.ahk`](./pop-up_calendar.ahk)
 
 **Shows a pop-up calendar when pressing <kbd>Win</kbd> + <kbd>C</kbd>.**

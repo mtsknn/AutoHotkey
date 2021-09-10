@@ -1,3 +1,5 @@
+[&larr; Installation instructions and more scripts](../../README.md)
+
 # [`discord_minimizer.ahk`](./discord_minimizer.ahk)
 
 **Minimizes Discord to the system tray (instead of quitting it)

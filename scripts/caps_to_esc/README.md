@@ -1,3 +1,5 @@
+[&larr; Installation instructions and more scripts](../../README.md)
+
 # [`caps_to_esc.ahk`](./caps_to_esc.ahk)
 
 **Maps <kbd>CapsLock</kbd> to <kbd>Esc</kbd>.**

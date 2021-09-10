@@ -1,3 +1,5 @@
+[&larr; Installation instructions and more scripts](../../README.md)
+
 # [`wide_left_shift.ahk`](./wide_left_shift.ahk)
 
 **Maps the extra key

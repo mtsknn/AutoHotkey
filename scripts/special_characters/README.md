@@ -1,3 +1,5 @@
+[&larr; Installation instructions and more scripts](../../README.md)
+
 # [`special_characters.ahk`](./special_characters.ahk)
 
 **Provides [hotstrings][] to easily type special characters.**
