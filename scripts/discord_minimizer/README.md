@@ -44,3 +44,11 @@ However, you might want to enable it anyhow
 so that clicking the top-right X will also minimize Discord to the system tray.
 (The focus will be incorrectly set to the taskbar,
 but this probably isn't a big issue when using the mouse.)
+
+## Bug reports on Discord Support
+
+In order of upvotes (as of Sep 10, 2021):
+
+- [Also close to tray when Alt+F4 is pressed and the relevant setting is enabled](https://support.discord.com/hc/en-us/community/posts/360040720652-Also-close-to-tray-when-Alt-F4-is-pressed-and-the-relevant-setting-is-enabled)
+- [Closing Discord with X Button & ALT+F4](https://support.discord.com/hc/en-us/community/posts/360058097712-Closing-Discord-with-X-Button-ALT-F4)
+- [Add a keyboard shortcut for minimizing Discord to the icon tray](https://support.discord.com/hc/en-us/community/posts/360068074131-Add-a-keyboard-shortcut-for-minimizing-Discord-to-the-icon-tray)
