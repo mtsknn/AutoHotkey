@@ -85,6 +85,7 @@ but they are nice to have around.
 | `;...`         | …         | `&hellip;`  | Horizontal ellipsis                                |
 | `;deg`         | °         | `&deg;`     | Degree                                             |
 | `;eur`         | €         | `&euro;`    | Euro                                               |
+| `;gbp`         | £         | `&pound;`   | Pound                                              |
 | `;md`          | —         | `&mdash;`   | Em dash                                            |
 | `;mid`         | ·         | `&middot;`  | Middle dot                                         |
 |                |           |             |                                                    |
